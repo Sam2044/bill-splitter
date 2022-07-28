@@ -1,0 +1,104 @@
+
+.card{
+    border-width:0;
+}
+
+.container {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    align-content: flex-start;
+    padding:0%;
+    width:100%;
+    height: 100px;
+  }
+
+#formGroupInput2{
+    border:0;
+    max-width: 100;
+    position: relative;
+    left: 0px;
+}
+
+#tipPercentage{
+    margin-top:7%;
+}
+
+button.btn{
+    width:32%;
+    height: fit-content;
+}
+
+#custom_input{
+    width:32%;
+    height: fit-content;
+    text-align: right;
+    color: hsl(184, 14%, 56%);
+    font-size: 16px;
+    font-weight: bold;
+}
+
+input.form-control{
+    background-color: hsl(189, 41%, 97%);
+}
+
+/* input.icon */
+#formGroupInput {
+    padding-left: 25px;
+    background: url("../../../../images/icon-dollar.svg") no-repeat left;
+    background-size: auto;
+    background-origin: border-box;
+    background-position: 5%;
+    text-align: right;
+    color: hsl(184, 14%, 56%);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#formGroupInput3 {
+    padding-left: 25px;
+    background: url("../../../../images/icon-person.svg") no-repeat left;
+    background-size: auto;
+    background-origin: border-box;
+    background-position: 5%;
+    text-align: right;
+    color: hsl(184, 14%, 56%);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: hsl(184, 14%, 56%);
+}
+
+button:hover,button:focus{
+    background-color: hsl(185, 41%, 84%);
+    color:hsl(183, 100%, 15%);
+    box-shadow: none;
+    outline: none !important;
+}
+
+button{
+    background-color: hsl(183, 100%, 15%);
+    color:hsl(0, 0%, 100%);
+}
+
+input:focus{ 
+    border-color: hsl(172, 67%, 45%);
+    outline: none !important;
+    border-width: 1.5px;
+    box-shadow: none;
+}
+
+#alert{
+    position: relative;
+    top: -57.5px;
+    left: 160px;
+    font-size: 12px;
+    color: orange;
+}
+
+
+
