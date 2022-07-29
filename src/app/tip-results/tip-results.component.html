@@ -1,0 +1,31 @@
+<div id = "tip-results" class="card" style="width: 18rem;">
+    <div class="card-body">
+
+      <table style="width:100%;">
+  
+        <tr VALIGN=TOP>
+          <td style="width:70%; line-height:0.5; padding-top: 10px;">
+            <p style="font-size: 14px; color:hsl(0, 0%, 100%);">Tip Amount<p>
+            <p style="font-size: 11px; color:hsl(184, 14%, 56%)">/ person<p>
+          </td>
+          <td style="font-size: 30px; font-weight: 700; color:hsl(172, 67%, 45%);">
+            
+            {{ tip_amount_per_person }}
+          </td>
+        </tr>
+
+        <tr>
+          <td style="width:70%; line-height:0.5;">
+            <p style="font-size: 14px; color:hsl(0, 0%, 100%);">Total<p>
+            <p style="font-size: 11px; color:hsl(184, 14%, 56%)">/ person<p>
+          </td>
+          <td style="font-size: 30px; font-weight: 700; color:hsl(172, 67%, 45%); padding-bottom: 20px; height:fit-content">
+            {{ total_amount_per_person }}
+          </td>
+        </tr>
+        
+      </table>
+
+      <button type="button" (click)="onClick()" class="btn btn-primary btn-block" style="width:100%; font-weight: 700; margin-top: 50px;">RESET</button>
+    </div>
+  </div>
